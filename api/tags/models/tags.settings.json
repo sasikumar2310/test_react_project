@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Categories",
+  "info": {
+    "name": "Categories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "restaurant": {
+      "via": "categories",
+      "model": "restaurant"
+    },
+    "article": {
+      "via": "categories",
+      "model": "article"
+    }
+  }
+}

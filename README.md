@@ -1,1 +1,3 @@
-# test_react_project
+# Strapi application
+
+A quick description of your strapi application
